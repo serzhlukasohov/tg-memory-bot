@@ -1,56 +1,47 @@
 # Startup Context
-_Last updated: 2026-05-15_
+_Last updated: 2025-01-24_
 
 ## What we're building
-Plyn is a voice-first AI keyboard targeting Polish, Ukrainian, and Belarusian language speakers in Poland. The product combines voice-to-text transcription with an AI beautification layer that improves grammar and style. Key differentiators: voice-first input, multi-language support for emigrant communities (especially Belarusian - currently unsupported on mobile keyboards), and competitive pricing positioned against Grammarly (which only added Polish support in March 2026). The product uses Gemini API for both audio transcription and text processing.
+A mobile-first AI-enhanced smart keyboard targeting Polish, Ukrainian, Russian, and Belarusian language speakers in Poland. The product combines voice-to-text transcription with AI beautification to improve spoken input for everyday mobile communication (messengers, social media, etc.). We're positioning as a "better Grammarly" alternative with voice-first input and multi-language support for emigrant communities. Starting with a cloud-based MVP to prioritize speed to market over privacy features, targeting non-technical users willing to pay for convenience. Belarusian language support (using Gemini 2.5 Flash) serves as a potential viral growth hook since no mobile keyboards currently support it.
 
 ## Current Status
-**Phase:** Transitioning from technical prototype to business validation
-**Immediate Priority:** Launch fake door landing page at plyn.io within 2-3 weeks to collect waitlist emails and validate demand
-**Unit Economics:** €5/month supports ~4 hours usage with 100% margin minus 30% Apple commission
-**Current Costs:** €0.53 (April 2026)
-**Beta Strategy:** Target 100 Ukrainian/Belarusian users as underserved market segment
+Validating product-market fit through lean fake door approach. Building landing page at plyn-site.vercel.app using plyn.io domain and green branding from holas.ai beta. Targeting 2-3 week sprint to launch waitlist page and begin traffic acquisition before competitors enter the underserved Polish/Ukrainian/Russian/Belarusian market. Moving away from saturated English-language desktop/developer market toward blue ocean strategy in non-English mobile markets.
 
 ## Key Decisions Made
-1. **Market positioning** - Target Polish/Ukrainian/Belarusian speakers in Poland as underserved segment with no active competition marketing in Polish
-2. **Competitive strategy** - Position as "better Grammarly" with voice-first and multi-language focus
-3. **Belarusian language support** - Use as viral GTM hook (no mobile keyboard supports it); implement via Gemini 2.5 Flash
-4. **Lean validation** - Launch fake door landing page before building full product
-5. **Domain** - Use plyn.io for brand
-6. **Pricing model** - €5/month for ~4 hours usage; compete on low price initially
-7. **Beta scope** - 100 users from Ukrainian/Belarusian communities
-8. **Technology stack** - Continue using Gemini API over OpenAI Whisper for cost efficiency
-9. **Branding** - Use green color from holas.ai for beta phase
-10. **Optimization sequence** - Defer VAD improvements until after beta test
+- **Market positioning**: Target Polish, Ukrainian, Russian, and Belarusian speakers in Poland instead of English/US market
+- **Product focus**: Mobile-first smart keyboard with AI enhancement vs. desktop/coding tools
+- **User segment**: Non-technical everyday users rather than programmers/developers
+- **Technical approach**: Cloud-based solution first, defer on-device/privacy features to later
+- **Go-to-market**: Fake door landing page (plyn.io) to validate demand before building full product
+- **Competitive position**: Position against Grammarly (added Polish only in March 2026) with voice-first + multi-language differentiation
+- **Language support**: Use Gemini 2.5 Flash for Belarusian language processing
+- **Branding**: Green color scheme from holas.ai for beta phase
+- **Timeline**: Compressed 2-3 week sprint to landing page launch
+- **Operations**: AI-first startup with shared knowledge base and agent to track decisions
 
 ## Open Questions
-- What is Grammarly's penetration in Polish market and are they actively advertising?
-- What price points do Polish/Ukrainian/Belarusian users in Poland typically pay for subscription products?
-- Where to buy traffic - Instagram, Facebook, TikTok, or other channels?
-- Should pricing be displayed on waitlist landing page?
-- How to record demo video - with hands or screencast only?
-- What blockers might prevent competitors from entering Polish market?
-- Which AI model performs best for Polish language generation?
+- What is Grammarly's penetration in the Polish market and are they actively targeting it with ads?
+- What is the average price point Polish/Ukrainian/Belarusian users in Poland pay for similar subscription products?
+- Where and how to buy traffic to target the audience - Instagram, Facebook, TikTok, or other channels?
+- Should pricing be displayed on the waitlist landing page?
+- How to properly record demo video - with hands or just screencast?
+- Is there any blocker preventing competitors from entering the Polish market?
+- Which AI model performs best for Polish language - likely Google/Gemini?
 
 ## Next Actions
-**Landing Page & Launch:**
+- Research Grammarly's penetration and advertising activity in Polish market
+- Manually verify Google search results for Polish keyboard-related queries to confirm lack of competition
+- Generate 3-5 killer feature ideas for emigrants who don't speak Polish well
+- Research pricing - what Polish/Ukrainian/Belarusian users in Poland typically pay for subscription products
+- Build financial model and unit economics for the business
 - Complete landing page design and development on plyn-site.vercel.app
-- Set up email collection worker for waitlist
-- Record real demo video on actual device
-- Buy plyn.pl domain (research GoDaddy broker, ~$70)
+- Record real demo video on actual device showing the keyboard in action
+- Research where to find and how to engage target audience - Telegram expat groups, Facebook groups in Warsaw/Wroclaw
+- Set up email collection worker for landing page waitlist
+- Buy domain - research plyn.pl acquisition through GoDaddy broker (~$70)
 - Find Polish native speaker to verify localization
-
-**Market Research:**
-- Research Grammarly's penetration and advertising in Polish market
-- Manually verify Google search results for Polish keyboard queries
-- Research typical subscription pricing for target audience
-- Generate 3-5 killer features for emigrants who don't speak Polish well
-- Research audience acquisition channels (Telegram groups, Facebook Warsaw/Wroclaw communities)
-- Test which AI model performs best for Polish language
-- Ask friend in text-to-speech startup about market insights
-
-**Planning:**
-- Build financial model and unit economics
-- Schedule sync call to create timeline and roadmap for 2-3 week sprint
-- Set up shared AI agent with knowledge base to track decisions
-- Watch JTBD (Jobs-to-be-Done) video tutorial
+- Test which AI model performs best for Polish language generation
+- Schedule sync call to create timeline and roadmap - aim for 2-3 week sprint to landing page launch
+- Set up shared AI agent with knowledge base in chat to track all decisions and research
+- Watch JTBD (Jobs-to-be-Done) video tutorial when time permits
+- Ask friend launching text-to-speech startup about market insights

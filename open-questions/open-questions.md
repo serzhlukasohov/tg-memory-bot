@@ -15,3 +15,9 @@
 - [ ] What usage limits do competitors have on their subscription plans?
 - [ ] Is there open analytics data on how many minutes users need per month?
 - [ ] Can we find an underserved niche or use case (e.g., emigrants who don't know the local language)?
+## 2026-05-27
+- [ ] Do existing voice-to-text solutions actually target Polish, Ukrainian, and Russian markets?
+- [ ] Which models (Whisper v3, Gemini) work well with Polish and other target languages?
+- [ ] Is it technically possible to access conversation context from within a custom keyboard on mobile?
+- [ ] How popular are voice messages in different messengers and what's the demand for voice-to-text conversion?
+- [ ] Can on-device models like Gemini's local version work effectively for non-English languages?
