@@ -8,3 +8,10 @@
 - [ ] How to properly record demo video - with hands or just screencast?
 - [ ] Is there any blocker preventing competitors from entering the Polish market?
 - [ ] Which AI model performs best for Polish language - likely Google/Gemini?
+## 2026-05-27
+- [ ] How many minutes of conversation fit into €5 budget based on actual token consumption? — @serzh
+- [ ] Does Gemini count 100 tokens per minute or 30 tokens per minute for audio? — @serzh
+- [ ] Are system prompt input tokens properly accounted for in cost calculations? — @serzh
+- [ ] What usage limits do competitors have on their subscription plans?
+- [ ] Is there open analytics data on how many minutes users need per month?
+- [ ] Can we find an underserved niche or use case (e.g., emigrants who don't know the local language)?
