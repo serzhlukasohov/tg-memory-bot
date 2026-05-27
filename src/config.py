@@ -1,3 +1,4 @@
+from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -36,6 +37,16 @@ class Settings(BaseSettings):
     redis_url: str = "redis://redis:6379/0"
     database_url: str
     session_gap_minutes: int = 120
+
+    @field_validator("database_url")
+    @classmethod
+    def fix_database_url(cls, v: str) -> str:
+        # Fly.io and some providers give postgres:// or postgresql:// — asyncpg needs postgresql+asyncpg://
+        if v.startswith("postgres://"):
+            return v.replace("postgres://", "postgresql+asyncpg://", 1)
+        if v.startswith("postgresql://"):
+            return v.replace("postgresql://", "postgresql+asyncpg://", 1)
+        return v
 
 
 settings = Settings()

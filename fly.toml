@@ -1,0 +1,18 @@
+app = "tg-memory-bot"
+primary_region = "fra"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[deploy]
+  release_command = "alembic upgrade head"
+
+[processes]
+  listener  = "python -m src.listener"
+  worker    = "arq src.tasks.WorkerSettings"
+  admin_bot = "python -m src.bot.admin_bot"
+
+[[vm]]
+  memory   = "512mb"
+  cpu_kind = "shared"
+  cpus     = 1
