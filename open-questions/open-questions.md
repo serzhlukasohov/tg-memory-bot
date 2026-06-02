@@ -21,3 +21,5 @@
 - [ ] Is it technically possible to access conversation context from within a custom keyboard on mobile?
 - [ ] How popular are voice messages in different messengers and what's the demand for voice-to-text conversion?
 - [ ] Can on-device models like Gemini's local version work effectively for non-English languages?
+## 2026-06-02
+- [ ] Can GitBook's free tier support the team's requirements? — @serzh
