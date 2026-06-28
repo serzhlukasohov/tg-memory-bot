@@ -23,3 +23,5 @@
 - [ ] Can on-device models like Gemini's local version work effectively for non-English languages?
 ## 2026-06-02
 - [ ] Can GitBook's free tier support the team's requirements? — @serzh
+## 2026-06-28
+- [ ] Why does the language detection/switching work inconsistently - sometimes auto-translating, sometimes not?
