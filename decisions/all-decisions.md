@@ -25,3 +25,5 @@
 - Add serzh to TestFlight to grant product access — [Session](/sessions/2026-06-28-10-06.md)
 ## 2026-06-28
 - Added Polish language support to the application — [Session](/sessions/2026-06-28-11-12.md)
+## 2026-06-28
+- Added sound effects and haptic vibration feedback on paste/insert actions — [Session](/sessions/2026-06-28-21-27.md)
