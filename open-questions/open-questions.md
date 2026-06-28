@@ -25,3 +25,6 @@
 - [ ] Can GitBook's free tier support the team's requirements? — @serzh
 ## 2026-06-28
 - [ ] Why does the language detection/switching work inconsistently - sometimes auto-translating, sometimes not?
+## 2026-06-28
+- [ ] Is the current model the same one that was previously being used? — @user_538227792
+- [ ] Why is the system running slowly? — @user_538227792
