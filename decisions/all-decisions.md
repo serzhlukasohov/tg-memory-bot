@@ -21,3 +21,5 @@
 - Target non-technical users rather than programmers — [Session](/sessions/2026-05-27-16-06.md)
 ## 2026-06-02
 - Try using GitBook for the team — [Session](/sessions/2026-06-02-14-02.md)
+## 2026-06-28
+- Add serzh to TestFlight to grant product access — [Session](/sessions/2026-06-28-10-06.md)

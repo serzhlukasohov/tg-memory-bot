@@ -1,90 +1,87 @@
 # Startup Context
-_Last updated: 2024-01-09 14:30 UTC_
+_Last updated: 2024-12-19 14:30 UTC_
 
 ## What we're building
-Plyn is an AI-powered voice-to-text keyboard with language beautification, targeting Polish, Ukrainian, Russian, and Belarusian speakers in Poland. The product differentiates from competitors by combining voice transcription with AI enhancement of spoken input, positioning as a "better Grammarly" alternative with voice-first input and multi-language support for emigrant communities. Using cloud-based architecture (Gemini API), the product targets non-technical mobile users who need smart text input for messaging and everyday communication. Belarusian language support serves as a potential viral hook, as no existing mobile keyboards currently support it.
+Plyn is an AI-powered voice-to-text keyboard with text beautification targeting Polish, Ukrainian, Russian, and Belarusian language speakers in Poland. The product differentiates from competitors like Grammarly through voice-first input and multi-language support for emigrant communities. The core value proposition is helping users speak in their native language and receive AI-enhanced, polished text output. The product is mobile-first, cloud-based, and targeting non-technical users who value convenience over privacy. Belarusian language support serves as a potential viral hook since no mobile keyboards currently support it.
 
 ## Current Status
-**Phase:** Pre-launch validation  
-**Immediate Priority:** Launch fake door landing page within 2-3 weeks to test market demand before building full product  
-**Market Opportunity:** Clear gap identified - Grammarly only added Polish support March 2026, no competitors actively marketing in Polish  
-**Unit Economics:** €5/month supports ~4 hours usage with viable margins (€0.53 current monthly costs)  
-**Infrastructure:** Exploring GitBook for team documentation/knowledge sharing (Serzh evaluating free tier)
+- **Phase**: Pre-launch validation and early product development
+- **Product**: In closed TestFlight beta with invitation-code access
+- **Go-to-market**: Building fake door landing page on plyn-site.vercel.app to validate demand before full build
+- **Timeline**: 2-3 week sprint target to landing page launch
+- **Market opportunity**: Grammarly only added Polish support in March 2026; no active Polish-language marketing from competitors
+- **Unit economics**: €5/month supports ~4 hours usage with viable margins using Gemini API
+- **Team tooling**: Evaluating GitBook for documentation and knowledge management
 
 ## Key Decisions Made
-1. **Market Pivot:** Target Polish/Ukrainian/Belarusian speakers in Poland vs. saturated English desktop market
-2. **Product Focus:** Mobile-first AI beautification keyboard vs. general voice-to-text or developer tools
-3. **Technical Approach:** Cloud-based MVP using Gemini 2.5 Flash, defer on-device privacy features
-4. **User Segment:** Non-technical users prioritizing convenience over privacy
-5. **Go-to-Market:** Fake door landing page at plyn.io to validate demand before building
-6. **Positioning:** "Better Grammarly" with voice-first and multi-language emigrant support
-7. **Speed Strategy:** 2-3 week sprint to launch landing page before competitors enter
-8. **Branding:** Green color from holas.ai for beta
-9. **Differentiation Hook:** Belarusian language support (unsupported by existing keyboards)
-10. **Team Infrastructure:** AI-first operation with shared knowledge base and agent tracking
+- **2026-Q2**: Target Polish, Ukrainian, Russian, and Belarusian speakers in Poland as primary market
+- **2026-Q2**: Build voice-first keyboard with AI beautification layer, positioning as "better Grammarly"
+- **2026-Q2**: Target non-technical users rather than programmers
+- **2026-Q2**: Start with cloud-based MVP prioritizing speed over on-device privacy
+- **2026-Q2**: Launch fake door landing page (plyn.io) to validate demand before building full product
+- **2026-Q2**: Use Gemini 2.5 Flash for Belarusian language support
+- **2026-Q2**: Use green color from holas.ai for beta branding
+- **2026-Q2**: Build AI-first startup with shared knowledge base and agent to track decisions
+- **Recent**: Add serzh to TestFlight for product access
+- **Recent**: Evaluate GitBook for team documentation
 
 ## Open Questions
-**Market & Competition:**
-- What is Grammarly's actual penetration and advertising activity in Polish market?
-- What price points do Polish/Ukrainian/Belarusian users in Poland pay for subscriptions?
+**Market & Competition**
+- What is Grammarly's penetration in Polish market and are they actively advertising?
 - Is there any blocker preventing competitors from entering Polish market?
-- Do existing voice-to-text solutions actively target Polish/Ukrainian/Russian markets?
+- Do existing voice-to-text solutions actually target Polish, Ukrainian, Russian markets?
 - What usage limits do competitors have on subscription plans?
+- Is there open analytics on typical user monthly usage patterns?
 
-**Product & Technical:**
-- Which AI model performs best for Polish language (Google/Gemini likely)?
+**Pricing & Economics**
+- What average price point do Polish/Ukrainian/Belarusian users in Poland pay for subscriptions?
 - How many minutes of conversation fit into €5 budget based on actual token consumption?
-- Does Gemini count 100 or 30 tokens per minute for audio?
+- Does Gemini count 100 tokens per minute or 30 tokens per minute for audio?
 - Are system prompt input tokens properly accounted for in cost calculations?
-- Is it technically possible to access conversation context from within custom keyboard on mobile?
-- Can on-device models like Gemini work effectively for non-English languages?
-- Which models (Whisper v3, Gemini) perform best with Polish and target languages?
 
-**User Research:**
-- Is there open analytics on typical monthly usage minutes users need?
-- How popular are voice messages in different messengers and what's transcription demand?
-- Can we find underserved niche (e.g., emigrants who don't know local language)?
+**Product & Technical**
+- Which AI model performs best for Polish language - likely Google/Gemini?
+- Which models (Whisper v3, Gemini) work well with Polish and other target languages?
+- Is it technically possible to access conversation context from custom keyboard on mobile?
+- Can on-device models like Gemini's local version work effectively for non-English languages?
+- Can GitBook's free tier support team requirements?
 
-**Go-to-Market:**
+**Go-to-Market**
 - Where to buy traffic - Instagram, Facebook, TikTok, or other channels?
 - Should pricing be displayed on waitlist landing page?
 - How to record demo video - with hands or just screencast?
+- How popular are voice messages in messengers and what's demand for voice-to-text?
+- Can we find underserved niche or use case (e.g., emigrants who don't know local language)?
 
 ## Next Actions
-**Critical Path (2-3 week sprint):**
+**Market Research**
+- Research Grammarly's penetration and advertising activity in Polish market
+- Manually verify Google search results for Polish keyboard queries to confirm lack of competition
+- Research pricing - what Polish/Ukrainian/Belarusian users typically pay for subscriptions
+- Perform competitor analysis of Wispr Flow, VoiceInk, others - analyze value propositions, features, marketing, pricing
+- Review competitor subscription limits and pricing tiers
+- Research which voice-to-text competitors support and target Polish, Ukrainian, Russian markets
+- Find open analytics on typical user monthly usage patterns
+- Analyze voice message usage patterns and demand for transcription in WhatsApp, Telegram, other messengers
+- Ask friend launching text-to-speech startup about market insights
+
+**Product Development**
 - Complete landing page design and development on plyn-site.vercel.app
 - Set up email collection worker for landing page waitlist
 - Record real demo video on actual device showing keyboard in action
-- Find Polish native speaker to verify localization
-- Schedule sync call to create timeline and roadmap
-
-**Market Research:**
-- Research Grammarly's penetration and advertising activity in Polish market
-- Manually verify Google search results for Polish keyboard queries to confirm lack of competition
-- Research pricing Polish/Ukrainian/Belarusian users typically pay for subscriptions
-- Perform competitor analysis of Wispr Flow, VoiceInk, others (value props, features, marketing, pricing)
-- Review competitor subscription limits and pricing tiers
-- Research which competitors actually support and target Polish/Ukrainian/Russian markets
-- Ask friend launching text-to-speech startup about market insights
-
-**Product Development:**
 - Generate 3-5 killer feature ideas for emigrants who don't speak Polish well
 - Test which AI model performs best for Polish language generation
 - Test Whisper v3 and Gemini model performance with Polish and other target languages
 - Investigate technical feasibility of accessing conversation context from custom mobile keyboard
-- Analyze voice message usage patterns and demand for transcription in WhatsApp/Telegram
 
-**Business & Operations:**
+**Operations & Planning**
 - Build financial model and unit economics for the business
 - Calculate cost per hour of text based on token usage, verify token counting methodology
-- Find open analytics on typical user monthly usage patterns
 - Create schematic launch plan to review together in next call
+- Schedule sync call to create timeline and roadmap - 2-3 week sprint to landing page launch
 - Set up shared AI agent with knowledge base in chat to track all decisions and research
-- Evaluate GitBook free tier for team documentation (Serzh owns)
-
-**Community & Distribution:**
-- Research where to find target audience - Telegram expat groups, Facebook groups in Warsaw/Wroclaw
 - Buy domain - research plyn.pl acquisition through GoDaddy broker (~$70)
-
-**Learning:**
+- Find Polish native speaker to verify localization
+- Research where to find target audience - Telegram expat groups, Facebook groups in Warsaw/Wroclaw
+- Evaluate GitBook and its free tier capabilities
 - Watch JTBD (Jobs-to-be-Done) video tutorial when time permits
