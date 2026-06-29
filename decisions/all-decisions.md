@@ -36,3 +36,5 @@
 ## 2026-06-29
 - Merge the pull requests without additional review — [Session](/sessions/2026-06-29-10-03.md)
 - Test translation feature with Belarusian and Russian languages — [Session](/sessions/2026-06-29-10-03.md)
+## 2026-06-29
+- Critical bugs must be fixed before user acquisition, as they will cause users to leave permanently — [Session](/sessions/2026-06-29-10-04.md)

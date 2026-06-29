@@ -36,3 +36,5 @@
 - [ ] Is it technically feasible to implement direct voice activation from keyboard?
 ## 2026-06-29
 - [ ] When should proper user research be conducted for the feature?
+## 2026-06-29
+- [ ] Should we set up a task board through wiki or another tool? — @user_390018496
