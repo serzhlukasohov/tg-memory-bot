@@ -38,3 +38,6 @@
 - [ ] When should proper user research be conducted for the feature?
 ## 2026-06-29
 - [ ] Should we set up a task board through wiki or another tool? — @user_390018496
+## 2026-06-29
+- [ ] How does session termination work when keyboard goes to background?
+- [ ] How does Whisper Flow handle incoming calls during sessions?
