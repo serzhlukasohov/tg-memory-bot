@@ -51,3 +51,5 @@
 ## 2026-06-29
 - [ ] What does 'geo' mean in ASO/ASA pricing (~$200/geo) - is it per country or more granular? — @Serhii Lukashov
 - [ ] Should we do simple email list (weak validation) or paid pre-orders (strong validation but complex)? — @Serhii Lukashov
+## 2026-06-29
+- [ ] Marketing strategy decision needed before unpausing email capture

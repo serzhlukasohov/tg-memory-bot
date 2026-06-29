@@ -44,3 +44,5 @@
 - Acquired plinklink.com domain via Cloudflare for €9.05 as placeholder — [Session](/sessions/2026-06-29-16-17.md)
 - Pause website email capture feature development pending marketing strategy decision — [Session](/sessions/2026-06-29-16-17.md)
 - Explored compromise approach: discounted pre-orders at 5 PLN for first 3 months — [Session](/sessions/2026-06-29-16-17.md)
+## 2026-06-29
+- Website deployed to plin.click as the public domain — [Session](/sessions/2026-06-29-16-19.md)
