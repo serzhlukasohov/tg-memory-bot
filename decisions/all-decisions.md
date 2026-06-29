@@ -27,3 +27,9 @@
 - Added Polish language support to the application — [Session](/sessions/2026-06-28-11-12.md)
 ## 2026-06-28
 - Added sound effects and haptic vibration feedback on paste/insert actions — [Session](/sessions/2026-06-28-21-27.md)
+## 2026-06-29
+- Team will use voice input keyboard themselves for testing purposes — [Session](/sessions/2026-06-29-10-02.md)
+- System prompt has been fixed to work correctly in all languages — [Session](/sessions/2026-06-29-10-02.md)
+- Dashboard development should be deprioritized — [Session](/sessions/2026-06-29-10-02.md)
+- Style selection should only be available during transcription, not after — [Session](/sessions/2026-06-29-10-02.md)
+- Direct voice activation from keyboard (like competitors) is not a priority right now — [Session](/sessions/2026-06-29-10-02.md)

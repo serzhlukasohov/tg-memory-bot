@@ -31,3 +31,6 @@
 ## 2026-06-28
 - [ ] Can I update the system prompt in Firebase, and is there versioning/rollback support if the previous version needs to be restored? — @serzh
 - [ ] How should authentication be implemented?
+## 2026-06-29
+- [ ] Is there actual latency delay when changing styles after dictation?
+- [ ] Is it technically feasible to implement direct voice activation from keyboard?
