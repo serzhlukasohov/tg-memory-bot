@@ -43,3 +43,6 @@
 - [ ] How does Whisper Flow handle incoming calls during sessions?
 ## 2026-06-29
 - [ ] At what exact moment does the white corner bug appear during video transition — @Yanka
+## 2026-06-29
+- [ ] What name, vibe, and emoji should be assigned to Plyn Bot? — @user_538227792
+- [ ] Can Plyn Bot read and respond to messages in Cyrillic/non-English languages? — @user_538227792
