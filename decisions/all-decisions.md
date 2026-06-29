@@ -48,3 +48,6 @@
 - Website deployed to plin.click as the public domain — [Session](/sessions/2026-06-29-16-19.md)
 ## 2026-06-29
 - Correct public deployment address is plyn.click — [Session](/sessions/2026-06-29-19-20.md)
+## 2026-06-29
+- Corrected all references from 'plin.click' to 'plyn.click' in wiki documentation files — [Session](/sessions/2026-06-29-20-21.md)
+- Amended local commit to include all corrections in a single commit (d45d1bb) — [Session](/sessions/2026-06-29-20-21.md)
