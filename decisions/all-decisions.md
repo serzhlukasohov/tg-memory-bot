@@ -40,3 +40,7 @@
 - Critical bugs must be fixed before user acquisition, as they will cause users to leave permanently — [Session](/sessions/2026-06-29-10-04.md)
 ## 2026-06-29
 - Not prioritizing the fix for white corners appearing above phone frame during video transitions — [Session](/sessions/2026-06-29-12-08.md)
+## 2026-06-29
+- Acquired plinklink.com domain via Cloudflare for €9.05 as placeholder — [Session](/sessions/2026-06-29-16-17.md)
+- Pause website email capture feature development pending marketing strategy decision — [Session](/sessions/2026-06-29-16-17.md)
+- Explored compromise approach: discounted pre-orders at 5 PLN for first 3 months — [Session](/sessions/2026-06-29-16-17.md)

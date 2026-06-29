@@ -48,3 +48,6 @@
 - [ ] Can Plyn Bot read and respond to messages in Cyrillic/non-English languages? — @user_538227792
 ## 2026-06-29
 - [ ] What does Plyn Bot know about the project? — @Yanka
+## 2026-06-29
+- [ ] What does 'geo' mean in ASO/ASA pricing (~$200/geo) - is it per country or more granular? — @Serhii Lukashov
+- [ ] Should we do simple email list (weak validation) or paid pre-orders (strong validation but complex)? — @Serhii Lukashov
