@@ -53,3 +53,5 @@
 - [ ] Should we do simple email list (weak validation) or paid pre-orders (strong validation but complex)? — @Serhii Lukashov
 ## 2026-06-29
 - [ ] Marketing strategy decision needed before unpausing email capture
+## 2026-06-29
+- [ ] Did the git push succeed after settings changes? — @user_538227792
