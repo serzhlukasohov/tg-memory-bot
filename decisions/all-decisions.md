@@ -33,3 +33,6 @@
 - Dashboard development should be deprioritized — [Session](/sessions/2026-06-29-10-02.md)
 - Style selection should only be available during transcription, not after — [Session](/sessions/2026-06-29-10-02.md)
 - Direct voice activation from keyboard (like competitors) is not a priority right now — [Session](/sessions/2026-06-29-10-02.md)
+## 2026-06-29
+- Merge the pull requests without additional review — [Session](/sessions/2026-06-29-10-03.md)
+- Test translation feature with Belarusian and Russian languages — [Session](/sessions/2026-06-29-10-03.md)

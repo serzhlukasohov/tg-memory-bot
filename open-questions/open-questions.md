@@ -34,3 +34,5 @@
 ## 2026-06-29
 - [ ] Is there actual latency delay when changing styles after dictation?
 - [ ] Is it technically feasible to implement direct voice activation from keyboard?
+## 2026-06-29
+- [ ] When should proper user research be conducted for the feature?
