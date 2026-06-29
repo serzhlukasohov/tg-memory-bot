@@ -41,3 +41,5 @@
 ## 2026-06-29
 - [ ] How does session termination work when keyboard goes to background?
 - [ ] How does Whisper Flow handle incoming calls during sessions?
+## 2026-06-29
+- [ ] At what exact moment does the white corner bug appear during video transition — @Yanka

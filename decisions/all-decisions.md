@@ -38,3 +38,5 @@
 - Test translation feature with Belarusian and Russian languages — [Session](/sessions/2026-06-29-10-03.md)
 ## 2026-06-29
 - Critical bugs must be fixed before user acquisition, as they will cause users to leave permanently — [Session](/sessions/2026-06-29-10-04.md)
+## 2026-06-29
+- Not prioritizing the fix for white corners appearing above phone frame during video transitions — [Session](/sessions/2026-06-29-12-08.md)
