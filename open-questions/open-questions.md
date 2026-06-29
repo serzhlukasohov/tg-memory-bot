@@ -46,3 +46,5 @@
 ## 2026-06-29
 - [ ] What name, vibe, and emoji should be assigned to Plyn Bot? — @user_538227792
 - [ ] Can Plyn Bot read and respond to messages in Cyrillic/non-English languages? — @user_538227792
+## 2026-06-29
+- [ ] What does Plyn Bot know about the project? — @Yanka
