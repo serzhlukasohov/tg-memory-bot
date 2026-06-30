@@ -61,3 +61,6 @@
 - [ ] How to resolve the user mapping issue (uid 501) in the sandbox environment to enable git push operations?
 ## 2026-06-30
 - [ ] How to configure SSH key access for the bot's execution environment to authenticate with GitHub?
+## 2026-06-30
+- [ ] What does Sergey think about fixing the locale issue with text modes? — @Sergey
+- [ ] How should wiki documentation be kept in sync with new features being added to the repository? — @Sergey

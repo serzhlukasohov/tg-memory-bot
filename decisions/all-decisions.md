@@ -51,3 +51,5 @@
 ## 2026-06-29
 - Corrected all references from 'plin.click' to 'plyn.click' in wiki documentation files — [Session](/sessions/2026-06-29-20-21.md)
 - Amended local commit to include all corrections in a single commit (d45d1bb) — [Session](/sessions/2026-06-29-20-21.md)
+## 2026-06-30
+- Text mode locale issue is classified as a product/UX bug, not a feature — [Session](/sessions/2026-06-30-08-06.md)
