@@ -72,3 +72,5 @@
 ## 2026-06-30
 - [ ] When will gog be installed and authorized in the workspace?
 - [ ] Should a Google Sheet be created manually for later import, or should the team wait for gog installation?
+## 2026-06-30
+- [ ] What is serzh's opinion on the media shared by user_390018496? — @serzh
