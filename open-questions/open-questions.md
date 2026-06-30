@@ -57,3 +57,5 @@
 - [ ] Did the git push succeed after settings changes? — @user_538227792
 ## 2026-06-30
 - [ ] How should GitHub authentication be configured for Plyn Bot's execution environment to enable push operations?
+## 2026-06-30
+- [ ] How to resolve the user mapping issue (uid 501) in the sandbox environment to enable git push operations?
