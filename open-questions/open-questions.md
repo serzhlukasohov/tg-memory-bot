@@ -69,3 +69,6 @@
 ## 2026-06-30
 - [ ] Is Google OAuth configured in the environment to enable Plyn Bot to work with Google Sheets?
 - [ ] Can topics be added to a Telegram group after it has been created? — @Yanka
+## 2026-06-30
+- [ ] When will gog be installed and authorized in the workspace?
+- [ ] Should a Google Sheet be created manually for later import, or should the team wait for gog installation?

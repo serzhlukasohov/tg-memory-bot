@@ -55,3 +55,5 @@
 - Text mode locale issue is classified as a product/UX bug, not a feature — [Session](/sessions/2026-06-30-08-06.md)
 ## 2026-06-30
 - Use Google Sheets as the source of truth for financial model and unit economics calculations, with a summary document in wiki/MD — [Session](/sessions/2026-06-30-09-08.md)
+## 2026-06-30
+- Build financial model structure in MD/CSV format in repository first (assumptions, pricing, usage, costs, scenarios, formulas), then migrate to Google Sheets when gog is available — [Session](/sessions/2026-06-30-09-09.md)
