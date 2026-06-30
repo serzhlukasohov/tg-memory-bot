@@ -64,3 +64,5 @@
 ## 2026-06-30
 - [ ] What does Sergey think about fixing the locale issue with text modes? — @Sergey
 - [ ] How should wiki documentation be kept in sync with new features being added to the repository? — @Sergey
+## 2026-06-30
+- [ ] Does user_390018496 have proper permissions to communicate with the bot? — @user_390018496
