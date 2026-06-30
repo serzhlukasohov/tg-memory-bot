@@ -66,3 +66,6 @@
 - [ ] How should wiki documentation be kept in sync with new features being added to the repository? — @Sergey
 ## 2026-06-30
 - [ ] Does user_390018496 have proper permissions to communicate with the bot? — @user_390018496
+## 2026-06-30
+- [ ] Is Google OAuth configured in the environment to enable Plyn Bot to work with Google Sheets?
+- [ ] Can topics be added to a Telegram group after it has been created? — @Yanka

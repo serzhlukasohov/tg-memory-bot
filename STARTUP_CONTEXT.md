@@ -1,41 +1,38 @@
 # Startup Context
-_Last updated: 2025-01-24 10:30 UTC_
+_Last updated: 2025-01-21_
 
 ## What we're building
-Plyn is a voice-to-text keyboard app targeting the Polish market, with support for multilingual dictation and real-time translation capabilities. The product features voice input with text transformation modes (short, formal, warm styles) and works across Polish, Russian, and potentially Ukrainian languages. The core value proposition is superior translation quality compared to Google Translate, combined with seamless voice dictation functionality integrated directly into the mobile keyboard interface.
 
-The product is currently in closed TestFlight beta testing phase, with a public website deployed at plyn.click for pre-launch marketing.
+Plyn is a voice-to-text keyboard app targeting Polish-speaking users (including Ukrainian and Belarusian emigrants in Poland). The product features real-time voice dictation with translation capabilities across Polish, Russian, and multiple languages, using Gemini 2.5 Flash for superior translation quality compared to Google Translate. The app includes text mode transformations with multiple styles (short, formal, warm), haptic and audio feedback, and a companion app architecture. The product is positioned for the Polish market where competitors like Grammarly and other voice-to-text solutions have minimal presence.
 
 ## Current Status
-**Development Phase:** Near launch-ready. Core voice dictation and translation features are implemented and being dogfooded by the team. Authentication system and response styles feature remain incomplete.
 
-**Critical Blockers:**
-- Two critical bugs identified: dictated text sometimes fails to insert, and companion app loses connection requiring manual restarts
-- Text mode locale bug: language changes don't propagate to text transformations
-- Authentication system not yet implemented
+**Launch readiness:** App development is nearly complete with only response styles remaining before technical launch readiness. Website is deployed at plyn.click with domain secured.
 
-**Infrastructure & Operations:**
-- Public website deployed to plyn.click domain
-- Using gemini-2.5-flash model for voice processing
-- Shared wiki repository for documentation, with bot-maintained local copy
-- Git authentication issues blocking automated bot operations
-- Documentation debt accumulating as features are added outside wiki
+**Strategic pause:** Team is deliberately consulting experts before finalizing go-to-market strategy, specifically around marketing validation approach (email collection vs. paid pre-orders) and ASO/ASA channel economics.
 
-**Marketing Strategy:** On pause. Team is consulting experts before choosing between simple email collection vs. paid pre-orders. ASO/ASA identified as promising growth channel pending cost clarification.
+**Active focus areas:**
+- Financial modeling and unit economics planning (moving to Google Sheets infrastructure)
+- Marketing strategy validation before launch
+- Product polish (response styles, UX bugs)
 
-**Team Mode:** Aggressive shipping mode, deprioritizing nice-to-have features (dashboard, full keyboard, advanced activation) to focus on core voice functionality. Strong awareness of competitive pressure and emphasis on speed to market.
+**Known critical issues:**
+- Text mode locale bug: language changes don't propagate to transformations
+- Documentation debt: new features added outside wiki system
+- Plyn Bot git authentication blocked (SSH key configuration needed)
 
 ## Key Decisions Made
-1. **Critical bugs must be fixed before user acquisition** - bugs will cause permanent user loss
-2. **Domain secured:** plyn.click as public deployment address (not plin.click)
-3. **Pause email capture development** pending marketing strategy decision from expert consultation
-4. **Deprioritize non-core features** - dashboard, full keyboard, advanced activation deferred post-launch
-5. **Text mode locale issue classified as product/UX bug** requiring fix, not optional feature
-6. **Not fixing white corner video bug** - video will be replaced anyway
-7. **Use ASO/ASA as primary growth channel** pending cost structure validation
-8. **Multilingual support fixed in system prompt** - now working correctly across languages
-9. **Firebase selected for authentication** infrastructure
-10. **Wiki-based task tracking adopted** over separate project management tools
+
+1. **Aggressive shipping mode** - Deprioritizing dashboard, full keyboard, advanced activation to focus on core voice input functionality
+2. **Google Sheets for financial modeling** - Established as source of truth for unit economics with wiki summaries for documentation
+3. **Domain strategy** - plyn.click as public deployment domain (corrected from initial plin.click)
+4. **Marketing validation pause** - Consulting experts before choosing between simple email collection vs. complex paid pre-orders
+5. **ASO/ASA as primary growth channel** - Identified as promising model pending cost structure clarity
+6. **Not fixing desktop video transition bug** - White corners issue deprioritized since video content will be replaced
+7. **Firebase for system prompt management** - Granted access; versioning questions remain open
+8. **Gemini 2.5 Flash as primary model** - Despite performance concerns, superior translation quality vs. competitors
+9. **Task tracking via wiki board** - Moving from conversation-based to structured task management
+10. **Text mode locale issue classified as bug** - Not a feature; needs fixing for proper UX
 
 ## Open Questions
 
@@ -54,7 +51,7 @@ The product is currently in closed TestFlight beta testing phase, with a public 
 - Is there open analytics data on how many minutes users need per month?
 - What does 'geo' mean in ASO/ASA pricing (~$200/geo) - is it per country or more granular?
 
-**Marketing & GTM:**
+**Marketing & Launch:**
 - Where and how to buy traffic to target the audience - Instagram, Facebook, TikTok, or other channels?
 - Should pricing be displayed on the waitlist landing page?
 - How to properly record demo video - with hands or just screencast?
@@ -65,11 +62,15 @@ The product is currently in closed TestFlight beta testing phase, with a public 
 - Which models (Whisper v3, Gemini) work well with Polish and other target languages?
 - Is it technically possible to access conversation context from within a custom keyboard on mobile?
 - Can on-device models like Gemini's local version work effectively for non-English languages?
-- How does session termination work when keyboard goes to background?
-- How does Whisper Flow handle incoming calls during sessions?
+- Why does the language detection/switching work inconsistently - sometimes auto-translating, sometimes not?
+- Is the current model the same one that was previously being used?
+- Why is the system running slowly?
+- Can I update the system prompt in Firebase, and is there versioning/rollback support?
+- How should authentication be implemented?
 - Is there actual latency delay when changing styles after dictation?
 - Is it technically feasible to implement direct voice activation from keyboard?
-- Is the current model the same one that was previously being used? (related to performance slowdown)
+- How does session termination work when keyboard goes to background?
+- How does Whisper Flow handle incoming calls during sessions?
 
 **Product & UX:**
 - How popular are voice messages in different messengers and what's the demand for voice-to-text conversion?
@@ -77,62 +78,70 @@ The product is currently in closed TestFlight beta testing phase, with a public 
 - What does Sergey think about fixing the locale issue with text modes?
 
 **Infrastructure & Process:**
-- Can Firebase system prompts be updated with versioning/rollback support?
+- Can GitBook's free tier support the team's requirements?
 - How should GitHub authentication be configured for Plyn Bot's execution environment to enable push operations?
 - How should wiki documentation be kept in sync with new features being added to the repository?
-- What name, vibe, and emoji should be assigned to Plyn Bot?
 
 ## Next Actions
 
-**Critical Path (Blocking Launch):**
-- Fix critical bug where dictated text doesn't insert
-- Fix companion app connection issue requiring restart (red light indicator)
-- Implement authentication system
-- Implement response styles (warm, friendly, etc.) in the app
-- Fix text mode locale bug (language changes not propagating to transformations)
-
-**Marketing & GTM:**
-- Schedule call with marketing contact to discuss ASO/ASA model and pre-order strategy
-- Schedule ASO/ASA mentor call with Yan
-- Create product demo video
-- Record real demo video on actual device showing the keyboard in action
+**Marketing & Research:**
 - Research Grammarly's penetration and advertising activity in Polish market
 - Manually verify Google search results for Polish keyboard-related queries to confirm lack of competition
-- Research where to find and how to engage target audience - Telegram expat groups, Facebook groups in Warsaw/Wroclaw
-
-**Research & Analysis:**
+- Generate 3-5 killer feature ideas for emigrants who don't speak Polish well
 - Research pricing - what Polish/Ukrainian/Belarusian users in Poland typically pay for subscription products
-- Build financial model and unit economics for the business
-- Calculate cost per hour of text based on token usage, verify token counting methodology
+- Research where to find and how to engage target audience - Telegram expat groups, Facebook groups in Warsaw/Wroclaw
+- Schedule call with marketing contact to discuss ASO/ASA model and pre-order strategy
+- Schedule ASO/ASA mentor call with Yan
 - Perform competitor analysis of Wispr Flow, VoiceInk, and others - analyze value propositions, features, marketing, and pricing plans
 - Review competitor subscription limits and pricing tiers
 - Research which voice-to-text competitors actually support and target Polish, Ukrainian, Russian markets
-- Test which AI model performs best for Polish language generation
-- Test Whisper v3 and Gemini model performance with Polish and other target languages
-- Find open analytics on typical user monthly usage patterns
 - Analyze voice message usage patterns and demand for transcription in WhatsApp, Telegram, and other messengers
-- Generate 3-5 killer feature ideas for emigrants who don't speak Polish well
 - Ask friend launching text-to-speech startup about market insights
 
-**Product & Technical:**
-- Merge pending pull requests
+**Financial Modeling:**
+- Build financial model and unit economics for the business
+- Calculate cost per hour of text based on token usage, verify token counting methodology
+- Find open analytics on typical user monthly usage patterns
+
+**Product Development:**
+- Implement response styles (warm, friendly, etc.) in the app
+- Review and respond to the text mode locale bug classification
+- Fix critical bug where dictated text doesn't insert
+- Fix companion app connection issue requiring restart (red light indicator)
+- Debug the system prompt to understand and fix inconsistent language detection behavior
+- Update system prompt in Firebase
+- Implement authentication system
 - Test haptic vibration feedback on actual device
 - Review sound and haptic feedback implementation
 - Test the updated system prompt across all languages
 - Investigate if direct keyboard voice activation is possible
+- Merge the pending pull requests
+- Check how Whisper Flow handles session management and keyboard background behavior
+- Test which AI model performs best for Polish language generation
+- Test Whisper v3 and Gemini model performance with Polish and other target languages
 - Investigate technical feasibility of accessing conversation context from custom mobile keyboard
-- Add serzh to TestFlight
-- Find Polish native speaker to verify localization
+- Evaluate GitBook and its free tier capabilities
 
-**Infrastructure & Operations:**
-- Push local commit d45d1bb from environment with GitHub access (domain correction)
+**Launch Preparation:**
+- Complete landing page design and development on plyn-site.vercel.app
+- Record real demo video on actual device showing the keyboard in action
+- Create product demo video
+- Set up email collection worker for landing page waitlist (paused pending marketing strategy decision)
+- Buy domain - research plyn.pl acquisition through GoDaddy broker (~$70)
+- Find Polish native speaker to verify localization
+- Create schematic launch plan to review together in next call
+- Set up Cloudflare Pages CI for website; deploy to plink.link
+- Add serzh to TestFlight
+- Rebuild/redraw the APK after adding Polish language
+
+**Infrastructure & Process:**
 - Configure GitHub authentication (SSH keys or personal access token) for Plyn Bot's workspace environment
-- Set up Cloudflare Pages CI for website
+- Fix SSH key configuration for Plyn Bot's workspace environment to enable GitHub repository access
+- Push local commit d45d1bb from environment with GitHub access
 - Decide on documentation strategy for keeping wiki in sync with new features
+- Set up a task board system (possibly through wiki)
+- Set up shared AI agent with knowledge base in chat to track all decisions and research
 
 **Planning & Coordination:**
 - Schedule sync call to create timeline and roadmap - aim for 2-3 week sprint to landing page launch
-- Create schematic launch plan to review together in next call
-- Finalize mountain route; share elevation profile with Yan
-- Set up shared AI agent with knowledge base in chat to track all decisions and research
-- Watch JTBD (Jobs-to-be-Done) video tutorial when time permits
+- Finalize
