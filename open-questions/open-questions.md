@@ -59,3 +59,5 @@
 - [ ] How should GitHub authentication be configured for Plyn Bot's execution environment to enable push operations?
 ## 2026-06-30
 - [ ] How to resolve the user mapping issue (uid 501) in the sandbox environment to enable git push operations?
+## 2026-06-30
+- [ ] How to configure SSH key access for the bot's execution environment to authenticate with GitHub?
